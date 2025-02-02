@@ -1,6 +1,6 @@
 # chat_with_docs
 ```mermaid
-graph LR
+graph TD
     A[Start] --> B{Initialize Streamlit App};
     B --> C{User Uploads PDF?};
     C -- Yes --> D[Read PDF and Extract Text];
